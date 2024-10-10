@@ -10,10 +10,8 @@
     --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif;
 }
 
-@media (min-width: 768px) {
-    .narrow-content {
-        max-width: 600px; /* Ajusta este valor según prefieras */
-    }
+.justify-text {
+    text-align: justify;
 }
 
 h1,
