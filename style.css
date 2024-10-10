@@ -14,12 +14,14 @@
     text-align: justify;
 }
 
-h1, {
-     color: #2c64ad;
+h1 {
+    color: #2c64ad;
 }
-h2, {
-     color: #2c64ad;
+
+h2 {
+    color: #2c64ad;
 }
+
 h3,
 h4,
 h5,
