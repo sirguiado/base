@@ -58,6 +58,10 @@ h6 {
     transform: scale(0.9); /* Reduce el tamaño al hacer clic */
 }
 
+body {
+    background-color: #f0ede8; 
+}
+
 /* para ajustar algo que queda lost in translation */
 em,
 cite {
