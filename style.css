@@ -41,9 +41,13 @@ h6 {
 }
 
 .icono {
-    width: 20px; /* Ajusta el tamaño a 20px */
-    height: 20px;
+    width: 20px; /* Ajusta el tamaño a 20px o cualquier tamaño deseado */
+    height: 20px; /* Mantén la altura igual que el ancho para mantener la proporción */
     transition: transform 0.3s ease; /* Solo para transformación */
+}
+
+.icon-container a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
 .icono:hover {
