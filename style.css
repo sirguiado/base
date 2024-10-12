@@ -34,6 +34,26 @@ h6 {
     font-weight: 400;
 }
 
+.icon-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icono {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+    transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.icono:hover {
+    fill: #2c64ad; /* Color al pasar el cursor */
+    transform: scale(1.1); /* Hace que el icono se agrande */
+}
+
+.icono:active {
+    transform: scale(0.9); /* Hace que el icono se reduzca al hacer click */
+}
+
 /* para ajustar algo que queda lost in translation */
 em,
 cite {
