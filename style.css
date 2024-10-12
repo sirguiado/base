@@ -34,26 +34,6 @@ h6 {
     font-weight: 400;
 }
 
-.icon-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Espacio entre íconos */
-}
-
-.icono {
-    width: 24px; /* Ajusta el tamaño a 24px */
-    height: 24px;
-    transition: transform 0.3s ease; /* Solo para transformación */
-}
-
-.icono:hover {
-    transform: scale(1.3); /* Agranda el ícono al pasar el cursor */
-}
-
-.icono:active {
-    transform: scale(0.9); /* Reduce el tamaño al hacer clic */
-}
-
 /* para ajustar algo que queda lost in translation */
 em,
 cite {
