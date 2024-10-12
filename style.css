@@ -41,8 +41,8 @@ h6 {
 }
 
 .icono {
-    width: 20px; /* Ajusta el tamaño a 20px o cualquier tamaño deseado */
-    height: 20px; /* Mantén la altura igual que el ancho para mantener la proporción */
+    width: 30px; /* Ajusta el tamaño a 20px o cualquier tamaño deseado */
+    height: 30px; /* Mantén la altura igual que el ancho para mantener la proporción */
     transition: transform 0.3s ease; /* Solo para transformación */
 }
 
