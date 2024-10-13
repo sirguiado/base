@@ -71,18 +71,3 @@ cite {
     font-weight: 600;
     font-style: normal;
 }
-
-/* Nuevos estilos para SVGs */
-object {
-    display: block; /* Para que ocupe el ancho completo en el primer caso */
-    margin: 0 auto; /* Centra el SVG si no ocupa todo el ancho */
-}
-
-.container object {
-    width: auto; /* Mantiene el tamaño original del segundo SVG */
-    height: auto; /* Ajusta la altura según sea necesario */
-}
-
-.narrow-content {
-    padding: 30px; /* Añade un poco de espacio alrededor */
-}
