@@ -51,8 +51,15 @@ h6 {
 }
 
 .narrow-content-svg {
-    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    max-width: 1200px; /* Ancho máximo */
     margin: 0 auto; /* Centra el contenido */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.full-width-svg {
+    width: 100%; /* Asegura que el SVG ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción del SVG */
+}
     
 .icon-container {
     display: flex;
