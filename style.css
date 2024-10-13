@@ -58,6 +58,23 @@ h6 {
     transform: scale(0.9); /* Reduce el tamaño al hacer clic */
 }
 
+/* Asegúrate de que el contenedor mantenga un tamaño adecuado */
+.container {
+    max-width: 720px; /* Puedes ajustar este valor según lo que necesites */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+object {
+    /* Asegúrate de que los objetos SVG se comporten como deseas */
+    display: block; /* Para que ocupe el ancho completo en el primer caso */
+    margin: 0 auto; /* Centra el SVG si no ocupa todo el ancho */
+}
+
+.container object {
+    width: auto; /* Mantiene el tamaño original del segundo SVG */
+    height: auto; /* Ajusta la altura según sea necesario */
+}
+
 body {
     background-color: #f0ede8; 
 }
