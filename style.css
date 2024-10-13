@@ -70,6 +70,44 @@ h6 {
     transform: scale(0.9); /* Reduce el tamaño al hacer clic */
 }
 
+/* Contenedor de imagen con difuminado */
+.img-diffuse {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Aplica gradiente para el efecto difuminado */
+.img-diffuse::before, 
+.img-diffuse::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15%; /* Ajusta el tamaño del difuminado */
+    background: linear-gradient(to bottom, rgba(240, 237, 232, 1), rgba(240, 237, 232, 0));
+    z-index: 1;
+}
+
+/* Difuminado superior */
+.img-diffuse::before {
+    top: 0;
+}
+
+/* Difuminado inferior */
+.img-diffuse::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(240, 237, 232, 1), rgba(240, 237, 232, 0));
+}
+
+/* Asegura que la imagen se ajuste al contenedor */
+.img-diffuse img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+}
+
 body {
     background-color: #f0ede8; 
 }
