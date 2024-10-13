@@ -48,6 +48,13 @@ h6 {
     margin: 0 auto; /* Centra el contenido */
 }
 
+.narrow-content {
+    max-width: 720px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenido */
+    padding-left: 15px; /* Añade un poco de espacio a los lados */
+    padding-right: 15px; /* Añade un poco de espacio a los lados */
+}
+
 .icon-container {
     display: flex;
     justify-content: center;
