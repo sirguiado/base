@@ -50,6 +50,10 @@ h6 {
     padding-right: 15px; /* Añade un poco de espacio a los lados */
 }
 
+.narrow-content-svg {
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenido */
+    
 .icon-container {
     display: flex;
     justify-content: center;
