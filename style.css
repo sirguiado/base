@@ -35,8 +35,14 @@ h6 {
 }
 
 .full-width-svg {
-    width: 100%; 
-    height: auto; 
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción */
+    max-width: 100%; /* Asegura que no supere el ancho del contenedor */
+}
+
+.narrow-content {
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenido */
 }
 
 .icon-container {
