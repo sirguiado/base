@@ -76,10 +76,12 @@ h6 {
 }
 
 .full-width-image {
-    width: calc(100% - 100px); /* Se extiende al ancho completo menos 100px (50px a cada lado) */
-    margin: 50px auto 20px; /* Espacio superior, centrado, y espacio inferior */
+    width: calc(100vw - 40px); /* Se extiende al ancho completo de la ventana menos el espacio deseado */
+    margin-left: 20px; /* Espacio a la izquierda */
+    margin-right: 20px; /* Espacio a la derecha */
     max-width: none; /* Evita que el max-width del contenedor la limite */
-    display: block; /* Asegura que el elemento sea un bloque para centrarlo */
+    margin-top: 50px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
 }
 
 .plano-img {
