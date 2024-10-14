@@ -78,6 +78,12 @@ h6 {
     margin-bottom: 20px; /* Espacio inferior */
 }
 
+.plano-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
 body {
     background-color: #f0ede8; 
 }
