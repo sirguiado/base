@@ -75,17 +75,11 @@ h6 {
     transform: scale(0.9); /* Reduce el tamaño al hacer clic */
 }
 
-.image-container {
-    padding: 0 50px; /* Espacio de 50px a los lados */
-}
-
 .full-width-image {
-    width: 100%; /* Ocupa el 100% del contenedor */
-    margin-top: 50px; /* Espacio superior */
-    margin-bottom: 20px; /* Espacio inferior */
-    display: block; /* Asegura que el elemento sea un bloque para centrarlo */
+    width: calc(100% - 40px); /* Se extiende al ancho completo menos el espacio deseado */
+    margin: 50px auto 20px; /* Espacio superior, centrado, y espacio inferior */
     max-width: none; /* Evita que el max-width del contenedor la limite */
-    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    display: block; /* Asegura que el elemento sea un bloque para centrarlo */
 }
 
 .plano-img {
