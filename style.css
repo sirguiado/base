@@ -41,9 +41,14 @@ h6 {
 }
 
 .narrow-content-svg {
-    max-width: 1000px; /* Cambia el ancho máximo a 1000 px */
-    margin: 0 auto; /* Centra el contenido */
-    text-align: center; /* Centra el contenido dentro del contenedor */
+    width: 100%; /* Asegura que el contenedor se extienda al 100% del ancho */
+    overflow: hidden; /* Opcional: oculta cualquier desbordamiento */
+}
+
+.full-width-svg {
+    width: 100%; /* Hace que el SVG se extienda al 100% del contenedor */
+    height: auto; /* Mantiene la proporción del SVG */
+    display: block; /* Elimina espacio en blanco alrededor del objeto */
 }
 
 .icon-container {
