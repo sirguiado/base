@@ -76,8 +76,9 @@ h6 {
 }
 
 .full-width-image {
-    width: 100vw; /* Se extiende al ancho completo de la ventana */
-    margin-left: calc(-50vw + 50%); /* Centra la imagen */
+    width: calc(100vw - 40px); /* Se extiende al ancho completo de la ventana menos el espacio deseado */
+    margin-left: 20px; /* Espacio a la izquierda */
+    margin-right: 20px; /* Espacio a la derecha */
     max-width: none; /* Evita que el max-width del contenedor la limite */
     margin-top: 50px; /* Espacio superior */
     margin-bottom: 20px; /* Espacio inferior */
