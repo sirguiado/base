@@ -11,7 +11,7 @@
 
 .header-background {
     position: relative;
-    background-image: url('img/imagen-fondo.png'); /* Ruta de la imagen de fondo */
+    background-image: url('img/fachada-byn.png'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
